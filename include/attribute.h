@@ -7,6 +7,8 @@ struct attr
     char *value;
     struct attr *attr_inside;
 };
-typedef attr JSON_ATTR;
+typedef struct attr JSON_ATTR;
+
+void JSON_showAttribute(JSON_ATTR *attr);
 
 #endif
