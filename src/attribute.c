@@ -1,6 +1,9 @@
 #include "../include/attribute.h"
 #include <stdlib.h>
 #include <stdio.h>
+#define TAB_COUNTER int
+
+const TAB_COUNTER json_tab = 0;
 
 void JSON_showAttribute(JSON_ATTR *attr)
 {

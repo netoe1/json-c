@@ -11,4 +11,7 @@ struct JSON_FILE
     JSON_ATTR *atributes[];
 };
 
+
+void readJsonFile(JSON_FILE *json);
+
 #endif
